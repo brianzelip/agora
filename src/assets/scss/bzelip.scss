@@ -4,6 +4,14 @@
  */
 
 // TODO: break styles up into components
+
+// base
+html,
+body,
+.vh100 {
+  min-height: 100vh;
+}
+
 // fonts
 .rift {
   font-family: $rift-font-family;
