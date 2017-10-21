@@ -1,0 +1,48 @@
+/*
+ *  by @bzelip
+ *
+ */
+
+// TOC
+//
+// 1. fonts
+// 2. colors
+
+// 1. fonts
+$font-style-normal: normal;
+$font-style-italic: italic;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+$open-sans-font-family: 'Open Sans', sans-serif;
+
+$rift-font-family: rift, sans-serif;
+$rift: $font-style-normal $font-weight-bold $rift-font-family;
+
+$brandon-font-family: brandon-grotesque, sans-serif;
+$brandon--regular: $font-style-normal $font-weight-regular $brandon-font-family;
+$brandon--regular-italic: $font-style-italic $font-weight-regular
+  $brandon-font-family;
+$brandon--medium: $font-style-normal $font-weight-medium $brandon-font-family;
+$brandon--medium-italic: $font-style-italic $font-weight-medium
+  $brandon-font-family;
+$brandon--bold: $font-style-normal $font-weight-bold $brandon-font-family;
+$brandon--bold--italic: $font-style-italic $font-weight-bold
+  $brandon-font-family;
+
+// 2. colors
+$brown-banner-center: #c39b7c;
+$brown-banner-edge: rgba(196, 154, 108, 0);
+$brown-banner-gradient-background-image: radial-gradient(
+  circle,
+  $brown-banner-center,
+  $brown-banner-edge
+);
+$brown-bar: #3d1c0f;
+$yellow-gears: #ffcd2f;
+$red-gears: #a41f25;
+$dark-green: #495e40;
+$yellow-free: #f9d63f;
+$orange-button: #e47e25;
+$green-button: #2bb673;
