@@ -5,96 +5,13 @@
 
 // TODO: break styles up into components
 
-// base
-html,
-body,
-.vh100 {
-  min-height: 100vh;
-}
+@import 'components/base';
+@import 'components/typography';
+@import 'components/color';
+@import 'components/whitespace';
 
-// fonts
-.rift {
-  font-family: $rift-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-bold;
-}
-
-.brandon {
-  font-family: $brandon-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-regular;
-}
-
-.open-sans {
-  font-family: $open-sans-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-regular;
-}
-.open-sans-condensed {
-  font-family: $open-sans-condensed-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-thin;
-}
-
-.font-style-normal {
-  font-style: $font-style-normal;
-}
-.italic {
-  font-style: $font-style-italic;
-}
-.thin {
-  font-weight: $font-weight-thin;
-}
-.regular {
-  font-weight: $font-weight-regular;
-}
-.medium {
-  font-weight: $font-weight-medium;
-}
-.bold {
-  font-weight: $font-weight-bold;
-}
-
-// colors
-.brown-bar {
-  color: $brown-bar;
-}
-.yellow-gears {
-  color: $yellow-gears;
-}
-.red-gears {
-  color: $red-gears;
-}
-.dark-green {
-  color: $dark-green;
-}
-.yellow-free {
-  color: $yellow-free;
-}
-.orange-button {
-  color: $orange-button;
-}
-.green-button {
-  color: $green-button;
-}
-.bg-brown-bar {
-  background-color: $brown-bar;
-}
-.bg-yellow-gears {
-  background-color: $yellow-gears;
-}
-.bg-red-gears {
-  background-color: $red-gears;
-}
-.bg-dark-green {
-  background-color: $dark-green;
-}
-.bg-yellow-free {
-  background-color: $yellow-free;
-}
-.bg-orange-button {
-  background-color: $orange-button;
-}
-.bg-green-button {
-  background-color: $green-button;
+// hero
+.hero {
+  background-image: url('../img/HeadlineImage_1.jpg');
+  background-size: cover;
 }

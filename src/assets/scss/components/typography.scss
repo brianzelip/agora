@@ -1,0 +1,91 @@
+// typography
+.rift {
+  font-family: $rift-font-family;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-bold;
+}
+
+.brandon {
+  font-family: $brandon-font-family;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-regular;
+}
+
+.open-sans {
+  font-family: $open-sans-font-family;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-regular;
+}
+.open-sans-condensed {
+  font-family: $open-sans-condensed-font-family;
+  font-style: $font-style-normal;
+  font-weight: $font-weight-thin;
+}
+
+.font-style-normal {
+  font-style: $font-style-normal;
+}
+.italic {
+  font-style: $font-style-italic;
+}
+.thin {
+  font-weight: $font-weight-thin;
+}
+.regular {
+  font-weight: $font-weight-regular;
+}
+.medium {
+  font-weight: $font-weight-medium;
+}
+.bold {
+  font-weight: $font-weight-bold;
+}
+
+.fs0 {
+  font-size: 7rem;
+}
+.fs1 {
+  font-size: 4.5rem;
+}
+.fs2 {
+  font-size: 4rem;
+}
+.fs3 {
+  font-size: 3.75rem;
+}
+.fs4 {
+  font-size: 3.5rem;
+}
+.fs5 {
+  font-size: 3.25rem;
+}
+.fs6 {
+  font-size: 3rem;
+}
+.fs7 {
+  font-size: 2.75rem;
+}
+.fs8 {
+  font-size: 2.5rem;
+}
+.fs9 {
+  font-size: 2.25rem;
+}
+.fs10 {
+  font-size: 2rem;
+}
+.fs11 {
+  font-size: 1.75rem;
+}
+.fs12 {
+  font-size: 1.5rem;
+}
+.fs13 {
+  font-size: 1.25rem;
+}
+.fs14 {
+  font-size: 1rem;
+}
+.lh1 {
+  line-height: 1;
+}
