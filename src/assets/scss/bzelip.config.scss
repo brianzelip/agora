@@ -11,11 +11,13 @@
 // 1. fonts
 $font-style-normal: normal;
 $font-style-italic: italic;
+$font-weight-thin: 300;
 $font-weight-regular: 400;
 $font-weight-medium: 500;
 $font-weight-bold: 700;
 
 $open-sans-font-family: 'Open Sans', sans-serif;
+$open-sans-condensed-font-family: 'Open Sans Condensed', sans-serif;
 
 $rift-font-family: rift, sans-serif;
 $rift: $font-style-normal $font-weight-bold $rift-font-family;
