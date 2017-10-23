@@ -1,5 +1,6 @@
 // colors
-.brown-bar {
+.brown-bar,
+.brown {
   color: $brown-bar;
 }
 .yellow-gears {
@@ -44,7 +45,9 @@
 .bg-green-button {
   background-color: $green-button;
 }
-
 .white {
   color: $white;
+}
+.brown-banner-gradient {
+  background-image: $brown-banner-gradient-background-image;
 }
