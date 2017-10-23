@@ -9,9 +9,57 @@
 @import 'components/typography';
 @import 'components/color';
 @import 'components/whitespace';
+@import 'components/borders';
+
+// grid
+.grid-container-plus {
+  max-width: $grid-container-plus;
+}
+
+// utility
+.pull-left-10px {
+  margin-left: -10px;
+}
+
+/*
+ * partial-specific styles
+ */
 
 // hero
 .hero {
   background-image: url('../img/HeadlineImage_1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.hero-title-gradient {
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1),
+    rgba(255, 255, 255, 0.7) 20%,
+    rgba(255, 255, 255, 0.7) 80%,
+    rgba(255, 255, 255, 0.1)
+  );
+}
+
+// info-panel-1
+li.check::before {
+  content: '✓';
+  font-size: 1.8rem;
+  margin-right: 1rem;
+  margin-left: -1.2rem;
+}
+
+li.check {
+  list-style-type: none;
+  padding-bottom: 1.5rem;
+  font-style: italic;
+}
+
+// parallax
+.parallax {
+  background-image: url('../img/ParallaxOne_5.jpg');
+  background-attachment: fixed;
+  background-position: 50% top;
+  background-repeat: no-repeat;
   background-size: cover;
 }
