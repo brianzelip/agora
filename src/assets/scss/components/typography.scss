@@ -1,25 +1,25 @@
 // typography
 .rift {
   font-family: $rift-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-bold;
+  font-style: normal;
+  font-weight: 700;
 }
 
 .brandon {
   font-family: $brandon-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-regular;
+  font-style: normal;
+  font-weight: 400;
 }
 
 .open-sans {
   font-family: $open-sans-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-regular;
+  font-style: normal;
+  font-weight: 400;
 }
 .open-sans-condensed {
   font-family: $open-sans-condensed-font-family;
-  font-style: $font-style-normal;
-  font-weight: $font-weight-thin;
+  font-style: normal;
+  font-weight: 300;
 }
 
 .font-style-normal {
@@ -28,21 +28,26 @@
 .italic {
   font-style: $font-style-italic;
 }
-.thin {
-  font-weight: $font-weight-thin;
+.fw300 {
+  font-weight: 300;
 }
-.regular {
-  font-weight: $font-weight-regular;
+.fw400 {
+  font-weight: 400;
 }
-.medium {
-  font-weight: $font-weight-medium;
+.fw500 {
+  font-weight: 500;
 }
-.bold {
-  font-weight: $font-weight-bold;
+.fw600 {
+  font-weight: 600;
 }
-
+.fw700 {
+  font-weight: 700;
+}
+.fw800 {
+  font-weight: 800;
+}
 .fs0 {
-  font-size: 7rem;
+  font-size: 7.2rem;
 }
 .fs1 {
   font-size: 4.5rem;
@@ -88,4 +93,16 @@
 }
 .lh1 {
   line-height: 1;
+}
+.lh1p1 {
+  line-height: 1.1;
+}
+.lh1p15 {
+  line-height: 1.15;
+}
+.lh1p2 {
+  line-height: 1.2;
+}
+.lh1p3 {
+  line-height: 1.3;
 }
