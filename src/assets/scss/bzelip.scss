@@ -57,3 +57,13 @@ li.check {
   padding-bottom: 1.5rem;
   font-style: italic;
 }
+
+// gears
+.gears {
+  background-color: $red-gears;
+  background-image: url('../img/Gears_15.jpg');
+  // background-attachment: fixed;
+  background-position: right -55rem top 82%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
