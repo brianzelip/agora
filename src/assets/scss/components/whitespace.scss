@@ -203,14 +203,6 @@
   margin-left: 2rem;
 }
 
-.pt2halfr {
-  padding-top: 2.5rem;
-}
-
-.pt3r {
-  padding-top: 3rem;
-}
-
 .p4 {
   margin: 4rem;
 }
@@ -269,4 +261,20 @@
 .px4 {
   padding-left: 4rem;
   padding-right: 4rem;
+}
+
+// utility
+.my1p2r {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.pt2halfr {
+  padding-top: 2.5rem;
+}
+.pt3r {
+  padding-top: 3rem;
+}
+.py3r {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
