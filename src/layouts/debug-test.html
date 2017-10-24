@@ -180,7 +180,7 @@
           + '<div class="small-3 columns inside_timer-box marginright"><div class="blueblue"><p class="big" id="countDays">%d</p></div><div class="lildays"><p>DAYS</p></div></div>'
           + '<div class="small-3 columns inside_timer-box marginright"><div class="blueblue"><p class="big" id="countDays">%H</p></div><div class="lilhrs"><p>HOURS</p></div></div>'
           + '<div class="small-3 columns inside_timer-box marginright"><div class="blueblue"><p class="big" id="countDays">%M</p></div><div class="lilmin"><p>MINUTES</p></div></div>'
-          + '<div class="small-3 columns inside_timer-box marginright"><div class="blueblue"><p class="big" id="countDays">%S</p></div><div class="lilsec"><p>SECONDS</p></div></div>')).on('finish.countdown', function {
+          + '<div class="small-3 columns inside_timer-box marginright"><div class="blueblue"><p class="big" id="countDays">%S</p></div><div class="lilsec"><p>SECONDS</p></div></div>')).on('finish.countdown', function () {
             $('#timerWrap').hide();
           });
       });
