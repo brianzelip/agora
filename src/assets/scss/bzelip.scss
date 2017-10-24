@@ -85,7 +85,11 @@ li.check {
 
 .scenery {
   background-color: $white;
-  background-image: url('../img/TransparentArrowBkgd.jpg');
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ),
+    url('../img/TransparentArrowBkgd.jpg');
   // background-attachment: fixed;
   background-position: bottom 50% center;
   background-repeat: no-repeat;
