@@ -311,3 +311,13 @@
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
+
+.sm-pb2 {
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 640px) {
+  .sm-pb2 {
+    padding-bottom: 0;
+  }
+}

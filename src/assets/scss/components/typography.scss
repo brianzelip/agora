@@ -46,57 +46,74 @@
 .fw800 {
   font-weight: 800;
 }
+
 .fs0 {
-  font-size: 7.2rem;
-}
-.fs1 {
   font-size: 4.5rem;
 }
-.fs2 {
-  font-size: 4rem;
-}
-.fs3 {
-  font-size: 3.75rem;
-}
-.fs4 {
-  font-size: 3.5rem;
-}
-.fs5 {
-  font-size: 3.25rem;
-}
 .fs6 {
-  font-size: 3rem;
-}
-.fs7 {
   font-size: 2.75rem;
 }
-.fs8 {
+.fs7 {
   font-size: 2.5rem;
 }
-.fs9 {
-  font-size: 2.25rem;
-}
-.fs10 {
+.fs11 {
   font-size: 2rem;
 }
-.fs11 {
-  font-size: 1.75rem;
+
+@media (min-width: 640px) {
+  .fs0 {
+    font-size: 7.2rem;
+  }
+  .fs1 {
+    font-size: 4.5rem;
+  }
+  .fs2 {
+    font-size: 4rem;
+  }
+  .fs3 {
+    font-size: 3.75rem;
+  }
+  .fs4 {
+    font-size: 3.5rem;
+  }
+  .fs5 {
+    font-size: 3.25rem;
+  }
+  .fs6 {
+    font-size: 3rem;
+  }
+  .fs7 {
+    font-size: 2.75rem;
+  }
+  .fs8 {
+    font-size: 2.5rem;
+  }
+  .fs9 {
+    font-size: 2.25rem;
+  }
+  .fs10 {
+    font-size: 2rem;
+  }
+  .fs11 {
+    font-size: 1.75rem;
+  }
+  .fs12 {
+    font-size: 1.5rem;
+  }
+  .fs13 {
+    font-size: 1.4rem;
+  }
+  .fs14 {
+    font-size: 1.1rem;
+  }
+  .fs15 {
+    font-size: 1rem;
+  }
+  .fs16 {
+    font-size: 0.9rem;
+  }
 }
-.fs12 {
-  font-size: 1.5rem;
-}
-.fs13 {
-  font-size: 1.4rem;
-}
-.fs14 {
-  font-size: 1.1rem;
-}
-.fs15 {
-  font-size: 1rem;
-}
-.fs16 {
-  font-size: 0.9rem;
-}
+
 .lh1 {
   line-height: 1;
 }

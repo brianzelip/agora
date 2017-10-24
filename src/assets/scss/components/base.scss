@@ -1,4 +1,14 @@
 // base
+html {
+  font-size: 12px;
+}
+
+@media (min-width: 640px) {
+  html {
+    font-size: 16px;
+  }
+}
+
 .vh70 {
   min-height: 70vh;
 }
