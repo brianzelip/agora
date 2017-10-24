@@ -83,6 +83,15 @@ li.check {
 
 // info-panel-4
 
+.scenery {
+  background-color: $white;
+  background-image: url('../img/TransparentArrowBkgd.jpg');
+  // background-attachment: fixed;
+  background-position: bottom 50% center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .cart-button {
   display: block;
   width: 60%;
