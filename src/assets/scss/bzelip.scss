@@ -23,6 +23,14 @@
 .block {
   display: block;
 }
+.inline-block {
+  display: inline-block;
+}
+
+// links
+.underline {
+  text-decoration: underline;
+}
 
 // utility
 .pull-left-10px {
@@ -86,4 +94,12 @@ li.check {
 }
 .cart-button:hover {
   background-color: darken($orange-button, 5%);
+}
+
+// footer
+.trademark {
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5rem;
 }
